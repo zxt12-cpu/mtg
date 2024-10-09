@@ -41,16 +41,26 @@
 
 .manaColorContainer {
     height: 50%;
-    background-color: coral;
 }
 
 .manaCostContainer {
     height: 50%;
-    background-color: burlywood;
 }
 
 .sectionLeadingLabel {
     margin: 0;
     padding: 0;
     font-size: large;
+}
+
+#manaCostWidgetContainer {
+    display: flex;
+    justify-items: center;
+    padding-left: 20px;
+}
+
+#manaColorWidgetContainer {
+    display: flex;
+    justify-items: center;
+    padding-left: 20px;
 }
